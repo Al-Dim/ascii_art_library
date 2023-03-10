@@ -37,5 +37,5 @@ text_file.close()
 #Extra
 =====================================================
 You can also use <html-to-image> to generate the exported html page to a picture.
-Under windows only made it with .net
+Works under windows only made it with .net
 https://github.com/Al-Dim/html-to-image
