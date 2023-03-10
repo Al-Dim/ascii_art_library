@@ -11,7 +11,9 @@ will have 200chars width, don't use any custom chars and use the default (0) cha
 Print the generated ascii.
 
 import ascii_art_library as aal
+
 ascii_art = aal.aal_convert_image_to_ascii("test.png", 200, "", aal.ASCII_CHARS_STYLE_0)
+
 print (ascii_art)
 
 
@@ -20,7 +22,11 @@ will have 200chars width, don't use any custom chars and use the default (0) cha
 Save the generated ascii as <test.html> file, that can be open to a browser.
 
 import ascii_art_library as aal
+
 ascii_art = aal.aal_convert_image_to_ascii_html("test.png", 200, "", aal.ASCII_CHARS_STYLE_0)
+
 text_file = open("test.html", "w")
+
 text_file.write(ascii_art)
+
 text_file.close()
