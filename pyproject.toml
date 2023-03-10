@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ascii_art_library"
+version = "0.0.6"
+authors = [
+  { name="AlDim", email="aldim.gr@gmail.com" },
+]
+description = "A library for converting an image to ascii art (simple text and html)."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {file = "LICENSE"}
+keywords = ["python", "ascii", "art", "ascii art", "generator", "converter", "image"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "pillow",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Al-Dim/ascii_art_library"
