@@ -1,10 +1,12 @@
 # ascii_art_library
+===================
 
 A library for converting an image to ascii art (simple text and html).
 
 Developed by AlDim (2023).
 
 # Examples
+==========
 
 Generate a simple ascii from a file named "test.png", declare that the generated ascii
 will have 200chars width, don't use any custom chars and use the default (0) chars.
@@ -16,6 +18,7 @@ ascii_art = aal.aal_convert_image_to_ascii("test.png", 200, "", aal.ASCII_CHARS_
 
 print (ascii_art)
 
+==============================================
 
 Generate a html ascii from a file named "test.png", declare that the generated ascii
 will have 200chars width, don't use any custom chars and use the default (0) chars.
